@@ -75,6 +75,7 @@ const estructuraForm = (
             <label htmlFor="nombre">Nombre</label>
             <input
               type="text"
+              minLength={3}
               name="nombre"
               className="form-control"
               id="nombre"
