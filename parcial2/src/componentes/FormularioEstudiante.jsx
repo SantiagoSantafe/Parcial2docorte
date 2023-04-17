@@ -63,6 +63,8 @@ const estructuraForm = (
             <label htmlFor="id">ID Estudiante</label>
             <input
               type="number"
+              min={100000}
+              max={10000000000}
               name="id"
               className="form-control"
               id="id"
